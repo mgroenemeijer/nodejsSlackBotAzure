@@ -1,0 +1,19 @@
+{
+  "name": "nodejsslackbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloWorldAzure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgroenemeijer/nodejsSlackBotAzure.git"
+  },
+  "author": "Mr. Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgroenemeijer/nodejsSlackBotAzure/issues"
+  },
+  "homepage": "https://github.com/mgroenemeijer/nodejsSlackBotAzure#readme"
+}
