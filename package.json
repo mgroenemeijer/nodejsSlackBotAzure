@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "nodejsslackbot",
   "version": "1.0.0",
   "description": "",
@@ -16,4 +17,18 @@
     "url": "https://github.com/mgroenemeijer/nodejsSlackBotAzure/issues"
   },
   "homepage": "https://github.com/mgroenemeijer/nodejsSlackBotAzure#readme"
+=======
+    "name": "app-service-hello-world",
+    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "scripts": {
+        "start": "node helloWorldAzure.js"
+    }
+>>>>>>> e97e6741906226a2d3090d858d661994a509d81b
 }
