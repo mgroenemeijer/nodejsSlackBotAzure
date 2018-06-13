@@ -1,4 +1,4 @@
-var http = require('http');
+/*var http = require('http');
 
 var server = http.createServer(function(request, response) {
 
@@ -14,10 +14,7 @@ server.listen(port);
 
 console.log("Server running at http://localhost:%d", port);
 
-
-function joep(){
-
-
+*/
     
 const { IncomingWebhook, WebClient } = require('@slack/client');
 
@@ -49,4 +46,4 @@ timeNotification.send(`The current time is ${currentTime}`, (error, resp) => {
 });
 
 
-}
+
