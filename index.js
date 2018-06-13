@@ -18,13 +18,15 @@ console.log("Server running at http://localhost:%d", port);
     
 const { IncomingWebhook, WebClient } = require('@slack/client');
 
-console.log('Getting started with Slack Developer Kit for Node.js');
+console.log('GGGetting started with Slack Developer Kit for Node.js');
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 const timeNotification = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);
 const currentTime = new Date().toTimeString();
 
-timeNotification.send(`The current time is ${currentTime}`, (error, resp) => {
+timeNotification.send('The current time is ${currentTime}');
+
+/*, (error, resp) => {
   if (error) {
     return console.error(error);
   }
@@ -44,6 +46,6 @@ timeNotification.send(`The current time is ${currentTime}`, (error, resp) => {
       .catch(console.error)
   }, 10);
 });
-
+*/
 
 
